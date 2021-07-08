@@ -17,8 +17,13 @@ namespace Mediator.Api.Tests
 
         public GetUsersTests()
         {
+            // Get a set of fake users
             _users = new UsersSet().Users;
-            var dbSet = Aef.FakeDbSet(_users, x => x.Id == 1);
+
+            // Create fake DbSet of users
+            var dbSet = Aef.FakeDbSet(_users);
+
+            // Mock out the call to the Users DbSet on the context
             A.CallTo(() => Context.Users).Returns(dbSet);
         }
 

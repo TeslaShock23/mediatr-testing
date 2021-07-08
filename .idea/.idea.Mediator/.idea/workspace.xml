@@ -10,23 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9bf2d250-1365-4cc9-97ca-19a89dd05a00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/Aef.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncEnumerator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncQueryProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mediator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/GetUsersTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/GetUsersTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/Mediator.Api.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/Mediator.Api.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/HandlerTestBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/HandlerTestBase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/MockDbContextExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/MockDbContextProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/DbContextProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/MockDbSetCreator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncEnumerable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncEnumerable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/Aef.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/Aef.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mediator.Api.Tests/TestSets/UsersSet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api.Tests/TestSets/UsersSet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mediator.Api/Features/Users/GetUsers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api/Features/Users/GetUsers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.Api/Mediator.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.Api/Mediator.Api.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mediator.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Mediator.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +46,13 @@
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/DbContextProvider.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/MockDbContextExtensions.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/MockDbSetCreator.cs" />
-      <option value="$PROJECT_DIR$/Mediator.Api/Features/Users/GetUsers.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestASyncEnumerable.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncQueryProvider.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncEnumerable.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/TestAsyncEnumerator.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestConfiguration/Aef.cs" />
+      <option value="$PROJECT_DIR$/Mediator.Api/Features/Users/GetUsers.cs" />
+      <option value="$PROJECT_DIR$/Mediator.Api.Tests/TestSets/UsersSet.cs" />
       <option value="$PROJECT_DIR$/Mediator.Api.Tests/GetUsersTests.cs" />
     </changedPaths>
   </component>
@@ -112,7 +101,7 @@
       <updated>1602027927303</updated>
       <workItem from="1602027939435" duration="8000" />
       <workItem from="1602027969277" duration="10980000" />
-      <workItem from="1625719693711" duration="5440000" />
+      <workItem from="1625719693711" duration="6250000" />
     </task>
     <servers />
   </component>
@@ -128,18 +117,18 @@
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Mediator.Api 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Mediator.Api 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Mediator.Api 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="Mediator.Api 27% 35/48" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Mediator.Api 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Mediator.Api 24% 39/51" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -162,5 +151,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Mediator.Api.Tests/GetUsersTests.cs</url>
+          <line>39</line>
+          <properties documentPath="D:\source\repos\mediatr-testing\Mediator.Api.Tests\GetUsersTests.cs" initialLine="34" containingFunctionPresentation="method 'GetUsers_UsersReturned'">
+            <startOffsets>
+              <option value="1106" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1141" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

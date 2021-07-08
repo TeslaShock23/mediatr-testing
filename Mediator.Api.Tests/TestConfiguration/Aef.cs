@@ -77,9 +77,6 @@ namespace Mediator.Api.Tests.TestConfiguration
                 }
             });
 
-            A.CallTo(() => fakeDbSet.AsNoTracking()).Returns(fakeDbSet);
-            A.CallTo(() => fakeDbSet.Include(A<string>._)).Returns(fakeDbSet);
-
             var func = find?.Compile();
             A.CallTo(() => fakeDbSet.Find(A<object[]>._)).ReturnsLazily((object[] _) => func is null ? null : data.FirstOrDefault(func));
             A.CallTo(() => fakeDbSet.FindAsync(A<object[]>._)).ReturnsLazily((object[] _) => ValueTask.FromResult(func is null ? null : data.FirstOrDefault(func)));
