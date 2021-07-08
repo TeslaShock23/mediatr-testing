@@ -28,7 +28,7 @@ namespace Mediator.Api.Features.Users
                 _context = context;
             }
 
-            public async Task<Response> Handle(Command request, CancellationToken cancellationToken = default) => new Response
+            public async Task<Response> Handle(Command request, CancellationToken cancellationToken = default) => new()
             {
                 Value = await _context.Users.AsNoTracking().ToListAsync(cancellationToken)
             };

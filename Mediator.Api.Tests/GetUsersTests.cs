@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using FakeItEasy;
 using FluentAssertions;
 using Mediator.Api.Database;
 using Mediator.Api.Features.Users;
@@ -17,7 +18,8 @@ namespace Mediator.Api.Tests
         public GetUsersTests()
         {
             _users = new UsersSet().Users;
-            Context.SetupDbSet(x => x.Users, _users);
+            var dbSet = Aef.FakeDbSet(_users, x => x.Id == 1);
+            A.CallTo(() => Context.Users).Returns(dbSet);
         }
 
         [Fact]
