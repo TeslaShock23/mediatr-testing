@@ -50,7 +50,7 @@ namespace Mediator.Api.Tests.TestConfiguration
 
         private static void QueryableSetUp<T>(DbSet<T> fakeDbSet, ICollection<T> data) where T : class
         {
-            A.CallTo(() => ((IQueryable<T>)fakeDbSet).Provider).ReturnsLazily(_ => new TestAsyncQueryProvider<T>(data.AsQueryable().Provider));
+            A.CallTo(() => ((IQueryable<T>)fakeDbSet).Provider).ReturnsLazily(_ => new TestAsyncQueryProvider<T>(data));
             A.CallTo(() => ((IQueryable<T>)fakeDbSet).Expression).ReturnsLazily(_ => data.AsQueryable().Expression);
             A.CallTo(() => ((IQueryable<T>)fakeDbSet).ElementType).ReturnsLazily(_ => data.AsQueryable().ElementType);
             A.CallTo(() => ((IQueryable<T>)fakeDbSet).GetEnumerator()).ReturnsLazily(_ => data.AsQueryable().GetEnumerator());

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Mediator.Api.Features.Users;
 
-public class GetUsers
+public class GetUser
 {
     public class Command : IRequest<Response>
     {
@@ -16,7 +16,7 @@ public class GetUsers
 
     public class Response
     {
-        public List<User> Value { get; set; }
+        public User Value { get; set; }
     }
 
     public class Handler : IRequestHandler<Command, Response>
@@ -30,7 +30,7 @@ public class GetUsers
 
         public async Task<Response> Handle(Command request, CancellationToken cancellationToken = default) => new()
         {
-            Value = await _context.Users.AsNoTracking().ToListAsync(cancellationToken),
+            Value = await _context.Users.AsNoTracking().FirstOrDefaultAsync(cancellationToken),
         };
     }
 }
